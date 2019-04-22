@@ -1,0 +1,103 @@
+0 
+32
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -O -I/home/benben/tools/synopsys/VCS2013/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mldflags=
+-Mobjects= /home/benben/tools/synopsys/VCS2013/amd64/lib/libvirsim.so /home/benben/tools/synopsys/VCS2013/amd64/lib/liberrorinf.so /home/benben/tools/synopsys/VCS2013/amd64/lib/libsnpsmalloc.so
+-Mout=simv
+-Msaverestoreobj=/home/benben/tools/synopsys/VCS2013/amd64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-full64
+-gen_obj
+-l
+-sverilog
+./include/timescale.sv
+./rtl/design.v
+./tb/class_bus.sv
+./tb/class_inter.sv
+./tb/class_mybus.sv
+./tb/class_packet.sv
+./tb/class_packet2.sv
+./tb/class_packet3.sv
+./tb/env.sv
+./tb/interface.sv
+./tb/mypackage.sv
+./tb/top.v
+/home/benben/tools/synopsys/VCS2013/amd64/bin/vcs1
+comp.log
+48
+sysc_uni_pwd=/home/benben/workspace_test/sample
+leon3=/home/benben/leon3/grlib-gpl-2018.1-b4217/grlib-gpl-2018.1-b4217/designs
+XDG_SESSION_COOKIE=b7e4ac0ded011b302940ad1100000039-1540419461.951785-1315913955
+XAUTHORITY=/var/run/gdm/auth-for-benben-10E4aC/database
+WINDOWPATH=1
+VMR_MODE_FLAG=64
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=comp.log
+VCS_HOME=/home/benben/tools/synopsys/VCS2013
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=amd64
+USERNAME=benben
+UNAME=/bin/uname
+TOOL_HOME=/home/benben/tools/synopsys/VCS2013/amd64
+SSH_AUTH_SOCK=/tmp/keyring-IrqLf0/socket.ssh
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SNPSLMD_LICENSE_FILE=/home/benben/tools/synopsys/license/synopsys.dat:/home/benben/tools/synopsys/VCS2013/flexlm//license.dat
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/3001,unix/unix:/tmp/.ICE-unix/3001
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+OVA_UUM=0
+ORBIT_SOCKETDIR=/tmp/orbit-benben
+MFLAGS=
+MAKELEVEL=1
+MAKEFLAGS=
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+HISTCONTROL=ignoredups
+G_BROKEN_FILENAMES=1
+GTK_RC_FILES=/etc/gtk/gtkrc:/home/benben/.gtkrc-1.2-gnome2
+GNOME_KEYRING_SOCKET=/tmp/keyring-IrqLf0/socket
+GNOME_KEYRING_PID=2991
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GDM_LANG=en_US.UTF-8
+GDM_KEYBOARD_LAYOUT=us
+GDMSESSION=gnome
+DVE_HOME=/home/benben/tools/synopsys/VCS2013/gui/dve
+DESKTOP_SESSION=gnome
+DC_HOME=/home/benben/tools/synopsys/DC2015
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-OzoeY9O7FA,guid=d606c9c1c743cd511a7be79600000074
+CVS_RSH=ssh
+COLORTERM=gnome-terminal
+0
+12
+1555659963 ./tb/top.v
+1555649113 ./rtl/design.v
+1555652736 ./tb/mypackage.sv
+1555649125 ./tb/interface.sv
+1555660743 ./tb/env.sv
+1555638518 ./tb/class_packet.sv
+1555655126 ./tb/class_packet3.sv
+1555639304 ./tb/class_packet2.sv
+1555653606 ./tb/class_mybus.sv
+1555639442 ./tb/class_inter.sv
+1555642123 ./tb/class_bus.sv
+1555655494 ./include/timescale.sv
+4
+0 
+1369979665 /home/benben/tools/synopsys/VCS2013/amd64/lib/libvirsim.so
+1369979419 /home/benben/tools/synopsys/VCS2013/amd64/lib/liberrorinf.so
+1369979224 /home/benben/tools/synopsys/VCS2013/amd64/lib/libsnpsmalloc.so
+1555662343 simv.daidir

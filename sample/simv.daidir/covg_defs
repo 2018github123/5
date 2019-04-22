@@ -1,0 +1,82 @@
+global coverage_group 0 cov __coverage_cov unused_cov_loop_label env 0 0 ( )
+ 1 1
+ 44 /home/benben/workspace_test/sample/tb/env.sv
+ 9 0 -1 0 0 0 0 0 0  0
+0
+26 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 17 cov::env_cov_fn_1
+0
+0
+0
+64
+0
+ 0
+
+2
+0
+1
+ 6 dte_cp 11 0 0 0 15 cov::env_cov_fn 15 cov::env_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 -1 2 4 0 0 1 0 2 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 5 bs_cp 13 0 0 0 17 cov::env_cov_fn_0 17 cov::env_cov_fn_0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 -1 2 4 0 0 1 0 2 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 5 cs_cp 0 14 0 -1 0 0 2 0 1 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+end_coverage_group

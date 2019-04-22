@@ -1,0 +1,19 @@
+<session version="1.1" release="H-2013.06" timestp="2019-04-19 08:25:47 GMT">
+  <hvp>
+    <datadef>
+      <metdef name="Group" type="percent" aggregator="average" builtin="1" />
+    </datadef>
+  </hvp>
+  <old_coverage>
+  <scope type="top" name="top">
+    <metric name="Group" value="8.46%" />
+  </scope>
+  <scope type="instance" name="top">
+  </scope>
+  <scope type="group" name="top">
+    <scope type="group" name="top.e1::cov">
+      <metric name="Group" value="8.46354%" />
+    </scope>
+  </scope>
+  </old_coverage>
+</session>
