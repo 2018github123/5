@@ -1,0 +1,24 @@
+// Reference model
+//
+class reference_dut extends uvm_component;
+
+	uvm_blocking_get_port #(mem_transaction) port; //get transaction from in_agent
+	
+	uvm_analysis_port #(mem_transaction) ap;// collect transaction
+	
+	`uvm_component_utils(reference_dut)
+	
+	function new (string name,uvm_component parent);
+		super.new(name,parent);	
+	endfunction
+	
+	function void build_phase(uvm_phase phase);
+		super.build_phase(phase);
+		port = new("port",this);
+		ap = new("ap",this);
+	endfunction
+	
+	task run_phase(uvm_phase phase);
+		//
+	endtask
+endclass

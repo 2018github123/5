@@ -1,0 +1,329 @@
+Command: vcs -sverilog -timescale=1ns/1ps -ntb_opts uvm-1.1 +incdir+./rtl ./rtl/memory.v \
+-F list -l comp.log -full64
+                         Chronologic VCS (TM)
+         Version H-2013.06_Full64 -- Wed May  8 01:06:29 2019
+               Copyright (c) 1991-2013 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/uvm_pkg.sv'
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/uvm_macros.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/macros/uvm_version_defines.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/uvm_macros.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/macros/uvm_message_defines.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/uvm_macros.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/macros/uvm_phase_defines.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/uvm_macros.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/macros/uvm_object_defines.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/uvm_macros.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/macros/uvm_printer_defines.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/uvm_macros.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/macros/uvm_tlm_defines.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm1/uvm_tlm_imps.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/macros/uvm_tlm_defines.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/uvm_macros.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/macros/uvm_sequence_defines.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/uvm_macros.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/macros/uvm_callback_defines.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/uvm_macros.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/macros/uvm_reg_defines.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/uvm_macros.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/macros/uvm_deprecated_defines.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/uvm_macros.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/uvm_pkg.sv'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/dpi/uvm_dpi.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/dpi/uvm_hdl.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/dpi/uvm_dpi.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/dpi/uvm_svcmd_dpi.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/dpi/uvm_dpi.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/dpi/uvm_regex.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/dpi/uvm_dpi.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/uvm_pkg.sv'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_version.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_object_globals.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_misc.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_object.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_pool.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_queue.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_factory.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_registry.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_spell_chkr.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_resource.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/deprecated/uvm_resource_converter.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_resource_specializations.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_resource_db.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_config_db.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_printer.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_comparer.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_packer.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_recorder.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_event_callback.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_event.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_barrier.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_callback.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/uvm_macros.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_callback.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_report_catcher.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_report_server.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_report_handler.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_report_object.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_transaction.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_phase.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_domain.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_bottomup_phase.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_topdown_phase.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_task_phase.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_common_phases.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_runtime_phases.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_component.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_root.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_component.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_objection.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_heartbeat.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_globals.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_cmdline_processor.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_base.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/uvm_pkg.sv'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm1/uvm_tlm_ifs.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm1/uvm_sqr_ifs.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/base/uvm_port_base.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm1/uvm_tlm_imps.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm1/uvm_imps.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm1/uvm_ports.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm1/uvm_exports.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm1/uvm_analysis_port.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm1/uvm_tlm_fifo_base.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm1/uvm_tlm_fifos.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm1/uvm_tlm_req_rsp.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm1/uvm_sqr_connections.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm1/uvm_tlm.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/uvm_pkg.sv'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/comps/uvm_comps.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/comps/uvm_pair.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/comps/uvm_comps.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/comps/uvm_policies.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/comps/uvm_comps.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/comps/uvm_in_order_comparator.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/comps/uvm_comps.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/comps/uvm_algorithmic_comparator.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/comps/uvm_comps.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/comps/uvm_random_stimulus.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/comps/uvm_comps.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/comps/uvm_subscriber.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/comps/uvm_comps.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/comps/uvm_monitor.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/comps/uvm_comps.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/comps/uvm_driver.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/comps/uvm_comps.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/comps/uvm_push_driver.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/comps/uvm_comps.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/comps/uvm_scoreboard.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/comps/uvm_comps.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/comps/uvm_agent.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/comps/uvm_comps.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/comps/uvm_env.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/comps/uvm_comps.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/comps/uvm_test.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/comps/uvm_comps.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/uvm_pkg.sv'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/seq/uvm_seq.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/seq/uvm_sequence_item.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/seq/uvm_seq.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/seq/uvm_sequencer_base.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/seq/uvm_seq.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/seq/uvm_sequencer_analysis_fifo.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/seq/uvm_seq.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/seq/uvm_sequencer_param_base.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/seq/uvm_seq.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/seq/uvm_sequencer.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/seq/uvm_seq.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/seq/uvm_push_sequencer.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/seq/uvm_seq.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/seq/uvm_sequence_base.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/seq/uvm_seq.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/seq/uvm_sequence.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/seq/uvm_seq.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/seq/uvm_sequence_library.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/seq/uvm_seq.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/seq/uvm_sequence_builtin.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/seq/uvm_seq.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/uvm_pkg.sv'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm2/uvm_tlm2_defines.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm2/uvm_tlm2_time.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm2/uvm_tlm2_generic_payload.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm2/uvm_tlm2_ifs.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm2/uvm_tlm2_imps.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm2/uvm_tlm2_ports.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm2/uvm_tlm2_exports.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm2/uvm_tlm2_sockets_base.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm2/uvm_tlm2_sockets.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/tlm2/uvm_tlm2.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/uvm_pkg.sv'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_item.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_adapter.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_predictor.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_sequence.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_cbs.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_backdoor.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_field.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_vreg_field.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_indirect.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_fifo.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_file.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_mem_mam.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_vreg.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_mem.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_map.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_block.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/sequences/uvm_reg_hw_reset_seq.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/sequences/uvm_reg_bit_bash_seq.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/sequences/uvm_mem_walk_seq.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/sequences/uvm_mem_access_seq.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/sequences/uvm_reg_access_seq.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/sequences/uvm_reg_mem_shared_access_seq.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/sequences/uvm_reg_mem_built_in_seq.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/sequences/uvm_reg_mem_hdl_paths_seq.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/reg/uvm_reg_model.svh'.
+Back to file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/uvm_pkg.sv'.
+Parsing design file './rtl/memory.v'
+
+Warning-[IPDASP] Identifier in ANSI port declaration
+./rtl/memory.v, 13
+  Redeclaration of ANSI ports not allowed for 'rdata', this will be an error 
+  in a future release
+
+Parsing design file './tb/mem_if.sv'
+Parsing design file './tb/mem_transaction.sv'
+Parsing design file './tb/mem_sequence.sv'
+Parsing design file './tb/mem_driver.sv'
+Parsing design file './tb/mem_monitor.sv'
+Parsing design file './tb/mem_sequencer.sv'
+Parsing design file './tb/mem_agent.sv'
+Parsing design file './tb/reference_dut.sv'
+Parsing design file './tb/mem_scoreboard.sv'
+Parsing design file './tb/mem_model_env.sv'
+Parsing design file './tb/mem_model_test.sv'
+Parsing design file './tb/tbench_top.sv'
+Parsing included file '/home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/uvm_macros.svh'.
+Back to file './tb/tbench_top.sv'.
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+./tb/tbench_top.sv, 4
+$unit
+  Package 'uvm_pkg' already wildcard imported. 
+  Ignoring uvm_pkg::*
+  See the System Verilog LRM(1800-2005), section 18.1.
+
+Top Level Modules:
+       tb_top
+TimeScale is 1 ns / 1 ps
+Starting vcs inline pass...
+4 modules and 0 UDP read.
+recompiling package vcs_paramclassrepository
+recompiling package uvm_pkg
+recompiling module tb_top
+All of 6 modules done
+make[1]: Entering directory `/media/A2A4-713B/vcs_uvm_tb_pass/uvm_tb/csrc'
+g++ -w  -pipe -O -I/home/benben/tools/synopsys/VCS2013/include    -c /home/benben/tools/synopsys/VCS2013/etc/uvm-1.1/dpi/uvm_dpi.cc \
+
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv     -Wl,-whole-archive    -Wl,-no-whole-archive  /home/benben/tools/synopsys/VCS2013/amd64/lib/vpdlogstub.o \
+uvm_dpi.o  _vcsobj_1_1.o  5NrI_d.o 5NrIB_d.o SIM_l.o    rmapats_mop.o rmapats.o  \
+/home/benben/tools/synopsys/VCS2013/amd64/lib/libzerosoft_rt_stubs.so /home/benben/tools/synopsys/VCS2013/amd64/lib/libvirsim.so \
+/home/benben/tools/synopsys/VCS2013/amd64/lib/liberrorinf.so /home/benben/tools/synopsys/VCS2013/amd64/lib/libsnpsmalloc.so \
+/home/benben/tools/synopsys/VCS2013/amd64/lib/libvcsnew.so /home/benben/tools/synopsys/VCS2013/amd64/lib/libvcsucli.so \
+/home/benben/tools/synopsys/VCS2013/amd64/lib/libuclinative.so        ./../simv.daidir/vc_hdrs.o \
+/home/benben/tools/synopsys/VCS2013/amd64/lib/vcs_save_restore_new.o -ldl  -lc -lm \
+-lpthread -ldl 
+../simv up to date
+make[1]: Leaving directory `/media/A2A4-713B/vcs_uvm_tb_pass/uvm_tb/csrc'
+CPU time: 5.309 seconds to compile + .074 seconds to elab + .445 seconds to link

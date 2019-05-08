@@ -1,0 +1,14 @@
+// Environment 
+
+class mem_model_env extends uvm_env;
+	`uvm_component_utils(mem_model_env);
+	
+	//agent and scoreboard instance
+	mem_agent agent;
+	mem_scoreboard scoreboard;
+
+	//new - constructor
+	function new(string name,uvm_component parent);
+		super.new(name,parent);
+	endfunction
+endclass
